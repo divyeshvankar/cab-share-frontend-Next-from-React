@@ -59,7 +59,7 @@ html {
   padding: 0 2rem 0 3rem;
 }
 
-.navbar-mainContainer .navbar-logo img {
+.navbar-logo-img {
   height: 10vh;
   padding: 1rem 0;
   cursor: pointer;

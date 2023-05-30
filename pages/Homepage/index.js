@@ -181,7 +181,7 @@ const Homepage = () => {
             <div className="navbar-container">
               <div className="navbar-logo">
                 <a href="#hero">
-                  <Image src={logo} alt="" />
+                  <Image className="navbar-logo-img"  src={logo} alt="" />
                 </a>
               </div>
               <div className={`navbar-links ${isActive ? "show" : ""}`}>
