@@ -33,7 +33,7 @@ import {
 } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoLogoWhatsapp } from "react-icons/io";
-import backendURL from "./backendURL";
+// import backendURL from "./backendURL";
 // import "./Homepage.css";
 
 const Homepage = () => {
@@ -107,7 +107,7 @@ const Homepage = () => {
 
     // Send the payload to the backend using axios
     axios
-      .post(backendURL + "/book/", payload)
+      .post("https://api.cabs4u.in/book/", payload)
       .then((response) => {
         // Handle the successful response if needed
         console.log("Form submitted successfully!");
