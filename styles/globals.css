@@ -95,7 +95,7 @@ html {
 
 .navbar-links ul li.book-now a {
   display: inline-block;
-  animation: blink 1.5s infinite;
+  animation: blink 2.5s infinite;
 }
 
 .navbar-links ul li.book-now a:hover {
