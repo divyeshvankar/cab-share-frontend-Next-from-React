@@ -512,19 +512,9 @@ const Homepage = () => {
                     </a>
                   </div>
                 </div>
-                {/* <div className="contact-whatsapp">
-                  <h1>Ashvin</h1>
-                  <p>+91 9023090592</p>
-                  <h1>Prakash</h1>
-                  <p>+91 9023426537</p>
-                  <h1>Raju</h1>
-                  <p>+91 7574098918</p>
-                </div> */}
+                
               </div>
-              {/* <div className="contact-email">
-                <h1>Email Address</h1>
-                <p>service@cabs4u.in</p>
-              </div> */}
+              
             </div>
           </div>
         </div>
