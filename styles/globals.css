@@ -976,9 +976,9 @@ input[type="checkbox"] {
   }
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 500px) {
   .hero-section {
-    background: url(/bgm.png);
+    background: url(/bgm.png) no-repeat center center/cover;
     width: 100%;
   }
 }
