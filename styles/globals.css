@@ -159,7 +159,7 @@ html {
 
 .hero-section {
  /* background-color: #1f1f1f; */
-  background: url(/bg.png) no-repeat center center/cover;
+  background: url(/bg.svg) no-repeat center center/cover;
 
   
 
@@ -216,7 +216,7 @@ html {
 
 .hero-btn {
   text-align: left;
-  padding: 0 10px;
+  padding: 24px 10px;
 }
 
 .hero-btn a button {
@@ -978,7 +978,7 @@ input[type="checkbox"] {
 
 @media screen and (max-width: 500px) {
   .hero-section {
-    background: url(/bgm.png) no-repeat center center/cover;
+    background: url(/bgm.svg) no-repeat center center/cover;
     width: 100%;
   }
 }
@@ -1068,6 +1068,10 @@ input[type="checkbox"] {
   .hero-left-container p {
     margin: 0 0 1rem;
   }
+  #hide {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 1330px) {
@@ -1081,7 +1085,14 @@ input[type="checkbox"] {
     font-size: 4rem;
   }
   .hero-left-container p {
-    font-size: 1.5rem;
+        /* display: none; */
+        font-size: 1.5rem;
+        top: 5px;
+        position: absolute;
+        top: 745px;
+        left: 21px;
+        color: #1f1f1f;
+        background: none;
   }
 }
 

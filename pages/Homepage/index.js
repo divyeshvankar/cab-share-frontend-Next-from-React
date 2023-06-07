@@ -247,6 +247,12 @@ const Homepage = () => {
                   <button>Check Cars</button>
                 </a>
               </div>
+              <p id="hide" >
+                We can arrange a one-way journey or a thrilling round trip. Our
+                broad fleet and excellent service let you explore your favourite
+                destinations. Book with Cabs4u today for stress-free travel and
+                lasting memories.
+              </p>
             </div>
           </div>
         </div>
