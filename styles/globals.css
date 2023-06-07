@@ -157,7 +157,11 @@ html {
 }
 
 .hero-section {
+<<<<<<< HEAD
   background: url(../public/Group1.png) no-repeat center center/cover;
+=======
+  background: url(/assets/desktop-2.svg) no-repeat center center/cover;
+>>>>>>> 4a3aa7deb0bfb455b5ca8aa9e3a25654eb53027f
   height: 100vh;
   width: 100%;
   margin: 0;
