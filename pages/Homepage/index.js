@@ -606,6 +606,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
+          
         </div>
         <button className="whatsapp">
           <a href="http://wa.me/+919023090592" target="_blank">
@@ -613,6 +614,7 @@ const Homepage = () => {
           </a>
         </button>
         <ToastContainer />
+        
       </div>
     </div>
   );

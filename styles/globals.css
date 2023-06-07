@@ -584,8 +584,12 @@ html {
 
 .contact-phone p, .contact-whatsapp p, .contact-email p{
   /* margin: auto auto 25px; */
-  font-size: 2rem;
-  font-weight: 500;
+ 
+
+    font-size: 2rem;
+    font-weight: 500;
+    width: max-content;
+    padding: 8px;
 }
 
 .fav-routes-mainContainer {
