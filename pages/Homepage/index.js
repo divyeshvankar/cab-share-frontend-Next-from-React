@@ -3,7 +3,6 @@ import axios from "axios";
 import Image from 'next/image';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// import { NavLink } from "react-router-dom";
 import driver from "../../styles/assets/driver.svg";
 import map from "../../styles/assets/map.svg";
 import building from "../../styles/assets/building.svg";
@@ -230,7 +229,9 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div id="hero" className="hero-section">
+        <div id="hero" className="hero-section"  style={{ 
+         background: "url('/Group1.png') no-repeat center center/cover"
+     }}>
           <div className="hero-left-mainContainer">
             <div className="hero-left-container">
               <h1>Book your cheapest car for the perfect trip experience.</h1>
