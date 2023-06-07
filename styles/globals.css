@@ -159,7 +159,7 @@ html {
 
 .hero-section {
  /* background-color: #1f1f1f; */
-  background: url(/me.png) no-repeat center center/cover;
+  background: url(/bg.png) no-repeat center center/cover;
 
   
 
@@ -978,7 +978,7 @@ input[type="checkbox"] {
 
 @media screen and (max-width: 368px) {
   .hero-section {
-    background: url(/Group2.png);
+    background: url(/bgm.png);
     width: 100%;
   }
 }
