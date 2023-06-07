@@ -159,7 +159,7 @@ html {
 
 .hero-section {
 
-  /* background: url(../public/Group1.png) no-repeat center center/cover; */
+  background: url(../public/Group1.png) no-repeat center center/cover;
 
   
 
@@ -743,7 +743,15 @@ html {
   /* flex-grow: 1; */
   text-align: right;
   padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
 }
+
+ 
+
 
 .footer-about h1 {
   font-size: 3rem;
@@ -815,6 +823,8 @@ html {
   color: #1f1f1f;
 }
 
+
+
 .social-media {
   display: grid;
   background-color: transparent;
@@ -838,13 +848,7 @@ html {
   grid-row: 1 / span 2;
 }
 
-.footer-contactUs {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
-}
+
 
 .footer-contacts {
   display: flex;
@@ -869,6 +873,32 @@ html {
   text-align: right;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 590px)  {
+  .footer-contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    width: -moz-fit-content;
+    /* width: fit-content; */
+    /* flex-basis: 500px; */
+    flex-grow: 1;
+    /* text-align: left; */
+    /* padding: 1rem 2rem; */
+
+  }
+}
+/* 981 to 680 */
+@media screen and (max-width : 1000px) {
+  .footer-contactUs{
+   
+    flex-grow: 1;
+    
+
+  }
 }
 
 .whatsapp {
@@ -942,12 +972,12 @@ input[type="checkbox"] {
   }
 }
 
-/* @media screen and (max-width: 368px) {
+@media screen and (max-width: 368px) {
   .hero-section {
     background: url(../public/Group2.png);
     width: 100%;
   }
-} */
+}
 
 /* Navbar */
 .navbar-menu-button {

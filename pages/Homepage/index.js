@@ -229,9 +229,7 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div id="hero" className="hero-section"  style={{ 
-         background: "url('/Group1.png') no-repeat center center/cover"
-     }}>
+        <div id="hero" className="hero-section"  >
           <div className="hero-left-mainContainer">
             <div className="hero-left-container">
               <h1>Book your cheapest car for the perfect trip experience.</h1>
