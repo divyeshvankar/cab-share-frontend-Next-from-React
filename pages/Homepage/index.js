@@ -508,7 +508,7 @@ const Homepage = () => {
                       </p>
                     </a>
                   </div>
-                  <div className="contact-contact">
+                  {/* <div className="contact-contact">
                     <h1>Email Address</h1>
                     <a href="mailto:service@cabs4u.in">
                       <p>
@@ -516,7 +516,7 @@ const Homepage = () => {
                         Email Now
                       </p>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
                 
               </div>
