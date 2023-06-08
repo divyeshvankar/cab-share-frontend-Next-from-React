@@ -1060,6 +1060,12 @@ input[type="checkbox"] {
 
 /* End of Navbar */
 
+@media screen and (max-width : 1600px){
+  #hide {
+    display: none;
+  }
+  
+}
 @media screen and (max-width: 1380px) {
   .hero-left-container {
     margin: 0;
