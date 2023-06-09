@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>cabs in vadodara 24/7 | Cabs 4u </title>
+        <title>Cabs in vadodara 24/7 | Cabs 4u </title>
         <meta name="description" content="Cabs4u gives you cheapest and affordable  ride in Vadodara and many more cities. 24/7 service available. " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="keywords" content="Cabs4u,cabs4u,cabs 4 u, cabs for you , cabs in vadodara, taxi in vadodara, taxi service in vadodara, cabs in vadodara to mumbai,cabs in vadodara airport, night cabs in vadodara,outstation cab in vadodara,cheapest cab in vadodara,online cab in vadodara "></meta>
