@@ -605,8 +605,9 @@ const Homepage = () => {
           
         </div>
         <button className="whatsapp">
-          <a href="http://wa.me/+919023090592" target="_blank">
-            <IoLogoWhatsapp size={50} style={{ color: "#29a71a" }} />
+          
+          <a href="tel:9023090592" >
+            <img src="./call.svg" alt="" srcset="" />
           </a>
         </button>
         <ToastContainer />
