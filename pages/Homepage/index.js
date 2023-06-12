@@ -453,6 +453,9 @@ const Homepage = () => {
           <div className="contact-mainContainer">
             <div className="contact-container">
               <div className="contact-title">
+              {/* Ashvin:9023090592
+              Prakash:9023426537
+              Raju:7574098918 */}
                 <h1>Contacts</h1>
               </div>
               <div className="contact-contacts">
@@ -465,7 +468,7 @@ const Homepage = () => {
                         Call Now
                       </p>
                     </a>
-                    <a href="http://wa.me/+919023090529">
+                    <a href="http://wa.me/+919023090592">
                       <p>
                         <FaWhatsappSquare
                           style={{ padding: "0", margin: "0" }}
@@ -482,7 +485,7 @@ const Homepage = () => {
                         Call Now
                       </p>
                     </a>
-                    <a href="http://wa.me/+917574098918">
+                    <a href="http://wa.me/+919023426537">
                       <p>
                         <FaWhatsappSquare
                           style={{ padding: "0", margin: "0" }}
@@ -499,7 +502,7 @@ const Homepage = () => {
                         Call Now
                       </p>
                     </a>
-                    <a href="http://wa.me/+919023090529">
+                    <a href="http://wa.me/+917574098918">
                       <p>
                         <FaWhatsappSquare
                           style={{ padding: "0", margin: "0" }}
