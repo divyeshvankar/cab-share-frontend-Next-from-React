@@ -395,7 +395,7 @@ const Homepage = () => {
                     travelers.
                   </p>
                   <span>
-                    11 ₹<p>/km</p>
+                    10 ₹<p>/km</p>
                   </span>
                 </div>
               </div>
@@ -410,7 +410,7 @@ const Homepage = () => {
                     relaxing journey across all terrains and weather conditions.
                   </p>
                   <span>
-                    13 ₹<p>/km</p>
+                    12 ₹<p>/km</p>
                   </span>
                 </div>
               </div>
@@ -426,7 +426,7 @@ const Homepage = () => {
                     travel experience.
                   </p>
                   <span>
-                    16 ₹<p>/km</p>
+                    15 ₹<p>/km</p>
                   </span>
                 </div>
               </div>
@@ -442,7 +442,7 @@ const Homepage = () => {
                     travel experience.
                   </p>
                   <span>
-                    18 ₹<p>/km</p>
+                    17 ₹<p>/km</p>
                   </span>
                 </div>
               </div>
