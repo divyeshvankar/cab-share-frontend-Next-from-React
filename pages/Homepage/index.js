@@ -256,6 +256,81 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
+
+        <div id="contact" className="fav-routes-mainContainer">
+          <div className="contact-mainContainer">
+            <div className="contact-container">
+              <div className="contact-title">
+                <h1>Contacts</h1>
+              </div>
+              <div className="contact-contacts">
+                <div className="contact-phone">
+                  <div className="contact-contact">
+                    <h1>Ashvin</h1>
+                    <a href="tel:9023090592">
+                      <p>
+                        <FaPhoneSquareAlt />
+                        Call Now
+                      </p>
+                    </a>
+                    <a href="http://wa.me/+919023090592">
+                      <p>
+                        <FaWhatsappSquare
+                          style={{ padding: "0", margin: "0" }}
+                        />
+                        Whatsapp Now
+                      </p>
+                    </a>
+                  </div>
+                  <div className="contact-contact">
+                    <h1>Prakash</h1>
+                    <a href="tel:9023426537">
+                      <p>
+                        <FaPhoneSquareAlt />
+                        Call Now
+                      </p>
+                    </a>
+                    <a href="http://wa.me/+919023426537">
+                      <p>
+                        <FaWhatsappSquare
+                          style={{ padding: "0", margin: "0" }}
+                        />
+                        Whatsapp Now
+                      </p>
+                    </a>
+                  </div>
+                  <div className="contact-contact">
+                    <h1>Raju</h1>
+                    <a href="tel:7574098918">
+                      <p>
+                        <FaPhoneSquareAlt />
+                        Call Now
+                      </p>
+                    </a>
+                    <a href="http://wa.me/+917574098918">
+                      <p>
+                        <FaWhatsappSquare
+                          style={{ padding: "0", margin: "0" }}
+                        />
+                        Whatsapp Now
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
         <div id="form" className="form-mainContainer">
           <div className="form-container">
             <div className="form-title">
@@ -449,13 +524,10 @@ const Homepage = () => {
             </div>
           </div>
         </div>
-        <div id="contact" className="fav-routes-mainContainer">
+        {/* <div id="contact" className="fav-routes-mainContainer">
           <div className="contact-mainContainer">
             <div className="contact-container">
               <div className="contact-title">
-              {/* Ashvin:9023090592
-              Prakash:9023426537
-              Raju:7574098918 */}
                 <h1>Contacts</h1>
               </div>
               <div className="contact-contacts">
@@ -511,22 +583,11 @@ const Homepage = () => {
                       </p>
                     </a>
                   </div>
-                  {/* <div className="contact-contact">
-                    <h1>Email Address</h1>
-                    <a href="mailto:service@cabs4u.in">
-                      <p>
-                        <MdEmail style={{ padding: "0", margin: "0" }} />
-                        Email Now
-                      </p>
-                    </a>
-                  </div> */}
                 </div>
-                
               </div>
-              
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="footer-mainContainer">
           <div className="footer-container">
             <div className="footer-about">
