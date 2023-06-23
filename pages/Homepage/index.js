@@ -173,6 +173,8 @@ const Homepage = () => {
   };
 
   return (
+    <>
+    
     <div className="homepage-mainContainer">
       <div className="homepage-container">
         <div id="navbar" className="navbar">
@@ -678,6 +680,7 @@ const Homepage = () => {
         
       </div>
     </div>
+    </>
   );
 };
 

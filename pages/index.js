@@ -8,6 +8,8 @@ export default function Home() {
   return (
     <>
       <Head>
+
+
         <title>Cabs 4u | Cabs in vadodara 24/7 Available</title>
         <meta name="description" content="Cabs4u gives you cheapest and affordable  ride in Vadodara and many more cities. 24/7 service available. " />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,12 +35,19 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.svg" /> */}
         <link rel="icon" href="fevicon.svg" />
         {/* <link rel="shortcut icon" href="final.ico" type="image/x-icon" /> */}
-        
-        
-        
 
+        {/* <!-- Start: Copyright 2023 TraceMyIP.org Service Code (091230-06232023)- DO NOT MODIFY //--> */}
+        <div id="elemID031021" style="line-height:16px;text-align:center;position:relative;z-index:100000;">
+<script async type="text/javascript" src="//s3.tracemyip.org/vLg/lgUrl.php?pidnVar2=66713&amp;prtVar2=2&amp;stlVar2=1500~1687509842~14*2~0F5999*F7FFE6*537899*000000~1*1*0*0*0&amp;rgtype=4684NR-IPIB&amp;scvVar2=12">
+  </script>
+  <noscript>
+    <a title="Cookie free visit tracking analytics" href="https://www.tracemyip.org/tools/cookie-free-tracking-analytics-eu-cookie-law-solution/">
+      <img src="//s3.tracemyip.org/vLg/1500~1687509842~14*2~0F5999*F7FFE6*537899*000000~1*1*0*0*0/4684NR-IPIB/66713/2/12/ans/" alt="Cookie free visit tracking analytics" referrerpolicy="no-referrer-when-downgrade" style="border:0px;"/>
+        </a>
+        </noscript>
+        </div> 
 
-
+        {/* <!-- End: TraceMyIP.org Service Code //--> */}
 
 
       </Head>
