@@ -33,7 +33,7 @@ html {
 .emergency-notice {
   /* Define your emergency notice styles here */
   position: fixed;
-  top: 105px; /* Adjust the top position as needed to avoid overlapping with the navbar */
+  top: 102px; /* Adjust the top position as needed to avoid overlapping with the navbar */
   left: 0;
   width: 100%;
   background-color: red;
