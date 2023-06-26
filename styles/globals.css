@@ -30,6 +30,30 @@ html {
   text-align: center;
 }
 
+.emergency-notice {
+  /* Define your emergency notice styles here */
+  position: fixed;
+  top: 105px; /* Adjust the top position as needed to avoid overlapping with the navbar */
+  left: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: medium;
+  /* animation:  20s linear infinite; */
+}
+
+
+/* @keyframes noticeSlide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+} */
+
 .navbar-mainContainer {
   /* max-width: 1200px; */
   width: 100%;

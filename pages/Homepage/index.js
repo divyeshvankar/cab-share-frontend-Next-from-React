@@ -161,7 +161,7 @@ const Homepage = () => {
 
   // Hamburger Menu
   const [isActive, setIsActive] = useState(false);
-
+ const [showEmergencyNotice, setShowEmergencyNotice] = useState(true);
   const handleClick = () => {
     setIsActive(!isActive);
   };
@@ -230,6 +230,16 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        {showEmergencyNotice && (
+          
+          
+        <div className="emergency-notice">
+      
+         IF YOU NEED TAXI/CAB IMMEDIATELY THAN PREFER TO CALL NOW.
+                {/* Emergency notice content */}
+        </div>
+      
+      )}
         <div id="hero" className="hero-section"  >
           <div className="hero-left-mainContainer">
             <div className="hero-left-container">
@@ -672,7 +682,7 @@ const Homepage = () => {
         <button className="whatsapp">
           
           <a href="tel:9023090592" >
-            <img src="./call.svg" alt="" srcset="" />
+            <img src="./call.svg" alt="" srcSet="" />
           </a>
         </button>
         <ToastContainer />
