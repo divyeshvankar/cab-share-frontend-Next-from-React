@@ -174,7 +174,7 @@ const Homepage = () => {
 
   return (
     <>
-    <div id="elemID031021" style={{lineHeight: '16px', textAlign: 'center', position: 'relative', zIndex: 100000}}><a title="Cookieless Click Tracking Software" href="https://www.tracemyip.org/tools/cookie-free-tracking-analytics-eu-cookie-law-solution/"><img src="//s3.tracemyip.org/vLg/1500~1687512963~14*2~0F5999*F7FFE6*537899*000000~1*1*0*0*0/4684NR-IPIB/66710/2/njsUrl/" alt="cookieless click tracking software" referrerPolicy="no-referrer-when-downgrade" style={{border: '0px'}} /></a></div> <div className="homepage-mainContainer">
+    <div id="elemID031021" style={{display:'none',lineHeight: '16px', textAlign: 'center', position: 'relative', zIndex: 100000}}><a title="Cookieless Click Tracking Software" href="https://www.tracemyip.org/tools/cookie-free-tracking-analytics-eu-cookie-law-solution/"><img src="//s3.tracemyip.org/vLg/1500~1687512963~14*2~0F5999*F7FFE6*537899*000000~1*1*0*0*0/4684NR-IPIB/66710/2/njsUrl/" alt="cookieless click tracking software" referrerPolicy="no-referrer-when-downgrade" style={{border: '0px'}} /></a></div> <div className="homepage-mainContainer">
       <div className="homepage-container">
         <div id="navbar" className="navbar">
           <div className="navbar-mainContainer">

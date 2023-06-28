@@ -36,7 +36,7 @@ export default function Home() {
         <link rel="icon" href="fevicon.svg" />
         {/* <link rel="shortcut icon" href="final.ico" type="image/x-icon" /> */}
 
-        
+
 
       </Head>
       <>
