@@ -274,11 +274,12 @@ const Homepage = () => {
             <div className="contact-container">
               <div className="contact-title">
                 <h1>Contacts</h1>
+                <h2>Click on call now to call and whatsapp now to message</h2>
               </div>
               <div className="contact-contacts">
                 <div className="contact-phone">
                   <div className="contact-contact">
-                    <h1>Ashvin</h1>
+                    {/* <h1>Ashvin</h1> */}
                     <a href="tel:9023090592">
                       <p>
                         <FaPhoneSquareAlt />
@@ -295,7 +296,7 @@ const Homepage = () => {
                     </a>
                   </div>
                   <div className="contact-contact">
-                    <h1>Prakash</h1>
+                    {/* <h1>Prakash</h1> */}
                     <a href="tel:9023426537">
                       <p>
                         <FaPhoneSquareAlt />
@@ -312,7 +313,7 @@ const Homepage = () => {
                     </a>
                   </div>
                   <div className="contact-contact">
-                    <h1>Raju</h1>
+                    {/* <h1>Raju</h1> */}
                     <a href="tel:7574098918">
                       <p>
                         <FaPhoneSquareAlt />
