@@ -16,6 +16,11 @@ export default function Home() {
         <meta name="keywords" content="Cabs4u,cabs4u,cabs 4 u, cabs for you , cabs in vadodara, taxi in vadodara, taxi service in vadodara, cabs in vadodara to mumbai,cabs in vadodara airport, night cabs in vadodara,outstation cab in vadodara,cheapest cab in vadodara,online cab in vadodara "></meta>
         <meta name="keywords" content="Cabs4u,cabs4u,cabs 4 u, cabs for you , taxi in vadodara, taxi in vadodara, taxi service in vadodara, taxi in vadodara to mumbai,taxi in vadodara airport, night taxi in vadodara,outstation taxi in vadodara,cheapest taxi in vadodara,online taxi in vadodara "></meta>
         <link rel="canonical" href="https://www.cabs4u.in/" />
+
+      {/* google adsense */}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7559321082850840"
+     crossorigin="anonymous"></script>
+
         {/* <!-- Google tag (gtag.js) --> */}
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10981971260"></script>
