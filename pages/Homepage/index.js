@@ -468,7 +468,12 @@ const Homepage = () => {
             <div className="rent-title">
               <p>See Our</p>
               <h1>Cars Rents</h1>
+              <h2>{`=>`} Minimum per day KM : 300 KM</h2>
+              <h2>{`=>`} Driver  allowance  300 ₹ </h2>
+              <h2>{`=>`}Toll-tax/Parking-tax/state-tax is extra</h2>
             </div>
+           
+            
             <div className="rent-cards">
               <div className="rent-card">
                 <div className="rent-cardImg">
