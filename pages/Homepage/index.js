@@ -14,6 +14,8 @@ import car2 from "../../styles/assets/cars/car2.png";
 import car3 from "../../styles/assets/cars/car3.png";
 import car4 from "../../styles/assets/cars/car4.png";
 import logo from "../../styles/assets/logo.svg";
+import car5 from "../../styles/assets/cars/sedan.jpg"
+import car6 from "../../styles/assets/cars/ertiga.jpg"
 import {
   MdOutlineLocationOn,
   MdPhone,
@@ -477,7 +479,7 @@ const Homepage = () => {
             <div className="rent-cards">
               <div className="rent-card">
                 <div className="rent-cardImg">
-                  <Image className="rent-cardImg-img" src={car1} alt="car1" />
+                  <Image className="rent-cardImg-img" src={car5} alt="car1" />
                 </div>
                 <div className="rent-description">
                   <h1>Sedan</h1>
@@ -487,13 +489,17 @@ const Homepage = () => {
                     travelers.
                   </p>
                   <span>
-                    10 ₹<p>/km</p>
+                  <a style={{color:'grey'} } href="#contact" onClick={() => setIsActive(false)}>
+                      
+                      Click for Price
+                        </a>
+                    {/* 10 ₹<p>/km</p> */}
                   </span>
                 </div>
               </div>
               <div className="rent-card">
                 <div className="rent-cardImg">
-                  <Image className='rent-cardImg-img' src={car2} alt="car2" />
+                  <Image className='rent-cardImg-img' src={car6} alt="car2" />
                 </div>
                 <div className="rent-description">
                   <h1>SUV</h1>
@@ -502,7 +508,11 @@ const Homepage = () => {
                     relaxing journey across all terrains and weather conditions.
                   </p>
                   <span>
-                    12 ₹<p>/km</p>
+                  <a style={{color:'grey'} } href="#contact" onClick={() => setIsActive(false)}>
+                      
+                  Click for Price
+                    </a>
+                    {/* 12 ₹<p>/km</p> */}
                   </span>
                 </div>
               </div>
@@ -518,7 +528,11 @@ const Homepage = () => {
                     travel experience.
                   </p>
                   <span>
-                    15 ₹<p>/km</p>
+                  <a style={{color:'grey'} } href="#contact" onClick={() => setIsActive(false)}>
+                      
+                      Click for Price
+                        </a>
+                    {/* 15 ₹<p>/km</p> */}
                   </span>
                 </div>
               </div>
@@ -534,7 +548,11 @@ const Homepage = () => {
                     travel experience.
                   </p>
                   <span>
-                    17 ₹<p>/km</p>
+                  <a style={{color:'grey'} } href="#contact" onClick={() => setIsActive(false)}>
+                      
+                  Click for Price
+                    </a>
+                    {/* 17 ₹<p>/km</p> */}
                   </span>
                 </div>
               </div>
