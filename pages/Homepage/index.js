@@ -403,7 +403,7 @@ const Homepage = () => {
                   </h2>
               
                 <h3>
-                25KM from Vadodara
+                60KM from Vadodara
                 </h3></p>
               <span>
               Nilkanth Dham Swaminarayan Temple is located at Poicha village on the bank of river Narmada which is about 80 kms from Bharuch and 60KM from Vadodara. It is beautiful swaminarayan temple constructed in large area and one of the most amazing pilgrimage attracts people around Gujarat. 
