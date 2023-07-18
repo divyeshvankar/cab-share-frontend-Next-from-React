@@ -357,27 +357,54 @@ const Homepage = () => {
           <div className="services-card">
             <div className="service">
               <Image className="service-img" src={place1} alt="place1" />
-              <p>Statue Of Unity</p>
+              
+              <p>
+                <h2>
+                  Statue Of Unity
+                  </h2>
+              
+                <h3>
+                90KM from Vadodara
+                </h3>
+              </p>
               <span>
               Visit the Statue of Unity, the world's tallest monument, to marvel at its grandeur, immerse yourself in India's rich history, and experience the warm hospitality and diverse traditions of Gujarat.
                </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place2} alt="place2" />
-              <p>Kavi Kamboi</p>
+              <p><h2>
+                   Kavi Kamboi
+                  </h2>
+              
+                <h3>
+                70KM from Vadodara
+                </h3></p>
               <span>
               Discover the enigmatic Stambheshwar Mahadev Temple, known as 'the Disappearing Temple,' dedicated to Lord Shiva, nestled in the quaint village of Kavi Kamboi, Gujarat. Located just 55 km from Vadodara, this extraordinary temple promises a unique and awe-inspiring experience.              </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place3} alt="place3" />
-              <p>Pavagadh</p>
+              <p><h2>
+                  Pavagadh
+                  </h2>
+              
+                <h3>
+                55KM from Vadodara
+                </h3></p>
               <span>
               Pavagadh Hill is seated in Gujarat’s Panchmahal district and overlooks the ancient-city of Champaner. Covered with leafy greens, the summit is home to the temple of Goddess Kali.
               </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place4} alt="place4" />
-              <p>Poicha</p>
+              <p><h2>
+                  Poicha
+                  </h2>
+              
+                <h3>
+                25KM from Vadodara
+                </h3></p>
               <span>
               Nilkanth Dham Swaminarayan Temple is located at Poicha village on the bank of river Narmada which is about 80 kms from Bharuch and 60KM from Vadodara. It is beautiful swaminarayan temple constructed in large area and one of the most amazing pilgrimage attracts people around Gujarat. 
               </span>
