@@ -16,6 +16,11 @@ import car4 from "../../styles/assets/cars/car4.png";
 import logo from "../../styles/assets/logo.svg";
 import car5 from "../../styles/assets/cars/sedan.jpg"
 import car6 from "../../styles/assets/cars/ertiga.jpg"
+import place1 from "../../styles/assets/Unity.jpg"
+import place2 from "../../styles/assets/Kavikamboi.jpg"
+import place3 from "../../styles/assets/Pavagadh.jpg"
+import place4 from "../../styles/assets/Poicha.jpg"
+
 import {
   MdOutlineLocationOn,
   MdPhone,
@@ -337,6 +342,58 @@ const Homepage = () => {
           </div>
         </div>
 
+{/* Favouratie route here */}
+
+
+
+
+
+<div id="services" className="services-container">
+          <div className="services-title">
+          <p>See Our</p>
+              <h1>Favourite Places!</h1>
+              <p>Near Vadodara</p>
+          </div>
+          <div className="services-card">
+            <div className="service">
+              <Image className="service-img" src={place1} alt="place1" />
+              <p>Statue Of Unity</p>
+              <span>
+              Visit the Statue of Unity, the world's tallest monument, to marvel at its grandeur, immerse yourself in India's rich history, and experience the warm hospitality and diverse traditions of Gujarat.
+               </span>
+            </div>
+            <div className="service">
+              <Image className="service-img" src={place2} alt="place2" />
+              <p>Kavi Kamboi</p>
+              <span>
+              Discover the enigmatic Stambheshwar Mahadev Temple, known as 'the Disappearing Temple,' dedicated to Lord Shiva, nestled in the quaint village of Kavi Kamboi, Gujarat. Located just 55 km from Vadodara, this extraordinary temple promises a unique and awe-inspiring experience.              </span>
+            </div>
+            <div className="service">
+              <Image className="service-img" src={place3} alt="place3" />
+              <p>Pavagadh</p>
+              <span>
+              Pavagadh Hill is seated in Gujarat’s Panchmahal district and overlooks the ancient-city of Champaner. Covered with leafy greens, the summit is home to the temple of Goddess Kali.
+              </span>
+            </div>
+            <div className="service">
+              <Image className="service-img" src={place4} alt="place4" />
+              <p>Poicha</p>
+              <span>
+              Nilkanth Dham Swaminarayan Temple is located at Poicha village on the bank of river Narmada which is about 80 kms from Bharuch and 60KM from Vadodara. It is beautiful swaminarayan temple constructed in large area and one of the most amazing pilgrimage attracts people around Gujarat. 
+              </span>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        
+
+
+
 
 
 
@@ -470,12 +527,14 @@ const Homepage = () => {
             <div className="rent-title">
               <p>See Our</p>
               <h1>Cars Rents</h1>
-              <h2>{`=>`} Minimum per day KM : 300 KM</h2>
-              <h2>{`=>`} Driver  allowance  300 ₹ </h2>
-              <h2>{`=>`}Toll-tax/Parking-tax/state-tax is extra</h2>
+              <ul>
+                <li><h2>Minimum per day KM : 300 KM</h2> </li>
+                <li><h2>Driver  allowance  300 ₹ </h2> </li>
+                <li><h2>Toll-tax/Parking-tax/state-tax is extra</h2> </li>
+              </ul>
             </div>
-           
-            
+
+
             <div className="rent-cards">
               <div className="rent-card">
                 <div className="rent-cardImg">
@@ -559,6 +618,40 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         {/* <div id="contact" className="fav-routes-mainContainer">
           <div className="contact-mainContainer">
             <div className="contact-container">
