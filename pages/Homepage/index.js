@@ -17,7 +17,7 @@ import logo from "../../styles/assets/logo.svg";
 import car5 from "../../styles/assets/cars/sedan.jpg"
 import car6 from "../../styles/assets/cars/ertiga.jpg"
 import place1 from "../../styles/assets/Unity.jpg"
-import place2 from "../../styles/assets/Kavikamboi.jpg"
+import place2 from "../../styles/assets/KaviKamboi.jpg"
 import place3 from "../../styles/assets/Pavagadh.jpg"
 import place4 from "../../styles/assets/Poicha.jpg"
 
