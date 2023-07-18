@@ -381,7 +381,7 @@ const Homepage = () => {
                 55KM from Vadodara
                 </h3></p>
               <span>
-              Discover the enigmatic Stambheshwar Mahadev Temple, known as 'the Disappearing Temple,' dedicated to Lord Shiva, nestled in the quaint village of Kavi Kamboi, Gujarat. Located just 55 km from Vadodara, this extraordinary temple promises a unique and awe-inspiring experience.              </span>
+              Discover the enigmatic Stambheshwar Mahadev Temple, known as 'the Disappearing Temple,' dedicated to Lord Shiva, nestled in the quaint village of Kavi Kamboi, Gujarat. Located just 55 km from Vadodara.              </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place3} alt="place3" />
