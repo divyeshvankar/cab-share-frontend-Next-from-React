@@ -219,7 +219,7 @@ const Homepage = () => {
                     </a>
                   </li>
                   <li className="book-now">
-                    <a href="#form" onClick={() => setIsActive(false)}>
+                    <a href="#contact" onClick={() => setIsActive(false)}>
                       Book Now
                     </a>
                   </li>
@@ -258,7 +258,7 @@ const Homepage = () => {
                 lasting memories.
               </p>
               <div className="hero-btn">
-                <a href="#form">
+                <a href="#contact">
                   <button>Book Now</button>
                 </a>
                 <a href="#cars">
@@ -337,10 +337,15 @@ const Homepage = () => {
                     </a>
                   </div>
                 </div>
+                
               </div>
+              
             </div>
+            
           </div>
+          
         </div>
+        
 
 {/* Favouratie route here */}
 
@@ -358,53 +363,45 @@ const Homepage = () => {
             <div className="service">
               <Image className="service-img" src={place1} alt="place1" />
               
-              <p>
-                <h2>
+           
+                <h1>
                   Statue Of Unity
-                  </h2>
+                </h1>
               
-                <h3>
-                90KM from Vadodara
-                </h3>
-              </p>
+                
+            
               <span>
               Visit the Statue of Unity, the world's tallest monument, to marvel at its grandeur, immerse yourself in India's rich history, and experience the warm hospitality and diverse traditions of Gujarat.
                </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place2} alt="place2" />
-              <p><h2>
-                   Kavi Kamboi
-                  </h2>
               
-                <h3>
-                55KM from Vadodara
-                </h3></p>
+                <h1>
+                   Kavi Kamboi
+                </h1>
+              
+              
               <span>
               Discover the enigmatic Stambheshwar Mahadev Temple, known as 'the Disappearing Temple,' dedicated to Lord Shiva, nestled in the quaint village of Kavi Kamboi, Gujarat. Located just 55 km from Vadodara.              </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place3} alt="place3" />
-              <p><h2>
+              <h1>
                   Pavagadh
-                  </h2>
+                  </h1>
               
-                <h3>
-                55KM from Vadodara
-                </h3></p>
+                
               <span>
               Pavagadh Hill is seated in Gujarat’s Panchmahal district and overlooks the ancient-city of Champaner. Covered with leafy greens, the summit is home to the temple of Goddess Kali.
               </span>
             </div>
             <div className="service">
               <Image className="service-img" src={place4} alt="place4" />
-              <p><h2>
+           <h1>
                   Poicha
-                  </h2>
+                  </h1>
               
-                <h3>
-                60KM from Vadodara
-                </h3></p>
               <span>
               Nilkanth Dham Swaminarayan Temple is located at Poicha village on the bank of river Narmada which is about 80 kms from Bharuch and 60KM from Vadodara. It is beautiful swaminarayan temple constructed in large area and one of the most amazing pilgrimage attracts people around Gujarat. 
               </span>
