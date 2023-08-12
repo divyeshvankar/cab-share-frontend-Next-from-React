@@ -1,10 +1,19 @@
 import Script from 'next/script';
 import Head from 'next/head'
 import Homepage from './Homepage'
-// import { Helmet } from "react-helmet";
-
+import React, { useEffect } from 'react';
 
 export default function Home() {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11298889021');
+  }, []);
+
   return (
     <>
       <Head>
@@ -21,18 +30,19 @@ export default function Home() {
       <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7559321082850840"
      crossOrigin="anonymous"></Script>
 
-        {/* <!-- Google tag (gtag.js) --> */}
-
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-10981971260"></Script>
-        <Script strategy="afterInteractive">
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'AW-10981971260');
-        gtag('event', 'conversion', {'send_to': 'AW-10981971260/vxuqCPiRlqoYELyqzvQo'});
-      `}
-    </Script>
+       
+ 
+{/* Google tag (gtag.js) */}
+<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11298889021"></Script>
+      <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-11298889021');
+        `}
+      </Script>
+    
 
 
 
