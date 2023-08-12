@@ -178,9 +178,30 @@ const Homepage = () => {
     setPickup(e.slice(0, e.indexOf("⇋")));
     setDrop(e.slice(e.indexOf("⇋") + 1));
   };
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11298889021');
+  }, []);
 
   return (
     <>
+
+{/* Google tag (gtag.js) */}
+<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11298889021"></Script>
+      <Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-11298889021');
+        `}
+      </Script>
+
     <div id="elemID031021" style={{display:'none',lineHeight: '16px', textAlign: 'center', position: 'relative', zIndex: 100000}}><a title="Cookieless Click Tracking Software" href="https://www.tracemyip.org/tools/cookie-free-tracking-analytics-eu-cookie-law-solution/"><img src="//s3.tracemyip.org/vLg/1500~1687512963~14*2~0F5999*F7FFE6*537899*000000~1*1*0*0*0/4684NR-IPIB/66710/2/njsUrl/" alt="cookieless click tracking software" referrerPolicy="no-referrer-when-downgrade" style={{border: '0px'}} /></a></div> <div className="homepage-mainContainer">
       <div className="homepage-container">
         <div id="navbar" className="navbar">

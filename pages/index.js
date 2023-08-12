@@ -4,16 +4,7 @@ import Homepage from './Homepage'
 import React, { useEffect } from 'react';
 
 export default function Home() {
-  useEffect(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      window.dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11298889021');
-  }, []);
-
+ 
   return (
     <>
       <Head>
@@ -32,16 +23,7 @@ export default function Home() {
 
        
  
-{/* Google tag (gtag.js) */}
-<Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11298889021"></Script>
-      <Script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'AW-11298889021');
-        `}
-      </Script>
+
     
 
 
