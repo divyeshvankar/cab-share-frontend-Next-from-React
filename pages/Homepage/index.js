@@ -20,7 +20,7 @@ import place1 from "../../styles/assets/Unity.jpg"
 import place2 from "../../styles/assets/KaviKamboi.jpg"
 import place3 from "../../styles/assets/Pavagadh.jpg"
 import place4 from "../../styles/assets/Poicha.jpg"
-
+import Script from 'next/script';
 import {
   MdOutlineLocationOn,
   MdPhone,
