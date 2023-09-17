@@ -249,7 +249,15 @@ const Homepage = () => {
               <div
                 className={`navbar-menu-button ${isActive ? "active" : ""}`}
                 onClick={handleClick}
-              >
+              >  
+                {/* <div className="call">
+                <button className="whatsapp">
+          
+          <a href="tel:9023090592" >
+            Call Now
+          </a>
+        </button>
+                </div> */}
                 <GiHamburgerMenu
                   size={25}
                   style={isScrolled ? { color: "black" } : { color: "white" }}
@@ -264,7 +272,7 @@ const Homepage = () => {
         <div className="emergency-notice">
         {/* જો તમને તાત્કાલિક ટેક્સી/કેબની જરૂર હોય તો હમણાં જ કૉલ કરવાનું પસંદ કરો. <br/> */}
          {/* IF YOU NEED TAXI/CAB IMMEDIATELY THAN PREFER TO CALL NOW. */}
-         यदि आपको तुरंत टैक्सी/कैब की आवश्यकता हो तो अभी कॉल करें।
+         यदि आपको तुरंत टैक्सी/कैब की आवश्यकता है तो नीचे दिए गए कॉल बटन का उपयोग करके अभी कॉल करें।
                 {/* Emergency notice content */}
         </div>
       
