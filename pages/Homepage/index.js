@@ -262,8 +262,9 @@ const Homepage = () => {
           
           
         <div className="emergency-notice">
-      
-         IF YOU NEED TAXI/CAB IMMEDIATELY THAN PREFER TO CALL NOW.
+        {/* જો તમને તાત્કાલિક ટેક્સી/કેબની જરૂર હોય તો હમણાં જ કૉલ કરવાનું પસંદ કરો. <br/> */}
+         {/* IF YOU NEED TAXI/CAB IMMEDIATELY THAN PREFER TO CALL NOW. */}
+         यदि आपको तुरंत टैक्सी/कैब की आवश्यकता हो तो अभी कॉल करें।
                 {/* Emergency notice content */}
         </div>
       
