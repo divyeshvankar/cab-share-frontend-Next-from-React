@@ -2,6 +2,7 @@ import Script from 'next/script';
 import Head from 'next/head'
 import Homepage from './Homepage'
 import React, { useEffect } from 'react';
+import Cars from './cars';
 
 export default function Home() {
  
@@ -38,6 +39,8 @@ export default function Home() {
       </Head>
       <>
         <Homepage/>
+        {/* <Cars/> */}
+        
       </>
       
     </>
