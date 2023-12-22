@@ -868,7 +868,7 @@ const Homepage = () => {
           </div>
           <button className="whatsapp">
 
-            <a href="tel:09023426537" >
+            <a href="tel:07574098918" >
               <img src="./call.svg" alt="" srcSet="" />
             </a>
           </button>
