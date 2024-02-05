@@ -242,6 +242,11 @@ const Homepage = () => {
                         Contact Us
                       </a>
                     </li>
+                    <li>
+                      <a href="#about" onClick={() => setIsActive(false)}>
+                        About Us
+                      </a>
+                    </li>
                     <li className="book-now">
                       <a href="#contact" onClick={() => setIsActive(false)}>
                         Book Now
@@ -786,7 +791,7 @@ const Homepage = () => {
    <CustomerReviews/>
 </div>
 
-          <div className="footer-mainContainer">
+          <div id="about" className="footer-mainContainer">
             <div className="footer-container">
               <div className="footer-about">
                 <h1>About Cab Services</h1>
@@ -797,7 +802,9 @@ const Homepage = () => {
                   experiences.
                 </p>
                 <h2>Cabs4u</h2>
-                <span>Copyright © 2023 Comapany, All rights reserved.</span>
+                <span>Copyright © 2024 Comapany, All rights reserved.</span>
+                <p>Terms and Conditions</p>
+
               </div>
               <div className="footer-links">
                 <h1>Quick Links</h1>
@@ -818,9 +825,13 @@ const Homepage = () => {
                     <MdKeyboardArrowRight />
                     <a href="#cars">Car Rents</a>
                   </li>
-                  <li>
+                  {/* <li>
                     <MdKeyboardArrowRight />
                     <a href="#fav-routes">Favourite Routes</a>
+                  </li> */}
+                  <li>
+                    <MdKeyboardArrowRight />
+                    <a href="#about">About Us</a>
                   </li>
                   <li>
                     <MdKeyboardArrowRight />
