@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from 'next/link';
 import axios from "axios";
 import { useRouter } from 'next/router';
 import Image from 'next/image';
@@ -803,7 +804,10 @@ const Homepage = () => {
                 </p>
                 <h2>Cabs4u</h2>
                 <span>Copyright © 2024 Comapany, All rights reserved.</span>
+                <Link href="/terms">
                 <p>Terms and Conditions</p>
+      </Link>
+                
 
               </div>
               <div className="footer-links">
@@ -830,9 +834,11 @@ const Homepage = () => {
                     <a href="#fav-routes">Favourite Routes</a>
                   </li> */}
                   <li>
-                    <MdKeyboardArrowRight />
-                    <a href="#about">About Us</a>
-                  </li>
+                  <MdKeyboardArrowRight />
+                  <Link href="/privacy">
+                  Privacy Policy
+                  </Link>
+                </li>
                   <li>
                     <MdKeyboardArrowRight />
                     <a href="#form">Book Now</a>

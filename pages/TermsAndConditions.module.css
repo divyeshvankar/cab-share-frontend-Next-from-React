@@ -1,0 +1,28 @@
+.container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for headings */
+  .h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for list items */
+  .li {
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for nested lists */
+  .ul {
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  
+  /* Styles for strong tags */
+  .strong {
+    font-weight: bold;
+  }
+  
