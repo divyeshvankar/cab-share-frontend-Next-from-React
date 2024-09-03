@@ -262,7 +262,7 @@ const Homepage = () => {
                   {/* <div className="call">
                 <button className="whatsapp">
           
-          <a href="tel:9023090592" >
+          <a href="tel:7574098918" >
             Call Now
           </a>
         </button>
@@ -326,13 +326,13 @@ const Homepage = () => {
                   <div className="contact-phone">
                     <div className="contact-contact">
                       {/* <h1>Ashvin</h1> */}
-                      <a href="tel:9023090592">
+                      <a href="tel:7574098918">
                         <p>
                           <FaPhoneSquareAlt />
                           Call Now
                         </p>
                       </a>
-                      <a href="http://wa.me/+919023090592">
+                      <a href="http://wa.me/+917574098918">
                         <p>
                           <FaWhatsappSquare
                             style={{ padding: "0", margin: "0" }}
@@ -733,13 +733,13 @@ const Homepage = () => {
                 <div className="contact-phone">
                   <div className="contact-contact">
                     <h1>Ashvin</h1>
-                    <a href="tel:9023090592">
+                    <a href="tel:7574098918">
                       <p>
                         <FaPhoneSquareAlt />
                         Call Now
                       </p>
                     </a>
-                    <a href="http://wa.me/+919023090592">
+                    <a href="http://wa.me/+917574098918">
                       <p>
                         <FaWhatsappSquare
                           style={{ padding: "0", margin: "0" }}
@@ -872,7 +872,7 @@ const Homepage = () => {
                   </p>
                   <p>
                     <MdPhone size={20} />
-                    +91 9023090592
+                    +91 7574098918
                   </p>
                   <p>
                     <MdEmail size={20} />
@@ -885,7 +885,7 @@ const Homepage = () => {
           </div>
           <button className="whatsapp">
 
-            <a href="tel:09023090592" >
+            <a href="tel:07574098918" >
               <img src="./call.svg" alt="" srcSet="" />
             </a>
           </button>
