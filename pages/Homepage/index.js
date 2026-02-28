@@ -190,19 +190,19 @@ const Homepage = () => {
     }
     gtag('js', new Date());
 
-    gtag('config', 'AW-11298889021');
+    gtag('config', 'AW-17982316684');
   }, []);
 
   return (
     <>
       {/* Google tag (gtag.js) */}
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11395830130"></Script>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-17982316684"></Script>
       <Script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-11395830130');
+          gtag('config', 'AW-17982316684');
         `}
       </Script>
 
